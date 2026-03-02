@@ -1,12 +1,24 @@
+"use client";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { MessageCircle, Mail, Instagram, Clock, Globe } from "lucide-react";
+
+interface Window {
+    dataLayer: any[];
+  }
 
 const Contact = () => {
   const whatsappNumber = "5527992337083";
   const whatsappMessage = encodeURIComponent(
     "Hello Marina, I would like to know more about your availability for sessions."
   );
+  function whatsappClick() {
+  if (typeof window !== "undefined" && window.dataLayer) {
+    window.dataLayer = window.dataLayer || []
+    window.dataLayer.push({
+    event: "whatsapp_click",
+    timestamp: new Date().toISOString(),
+  });}}
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
   return (
@@ -44,6 +56,7 @@ const Contact = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block"
+                  onClick={whatsappClick}
                 >
                   <div className="bg-primary text-primary-foreground p-10 rounded-3xl text-center hover:shadow-2xl transition-all duration-300 group retro-shadow-pink hover:translate-x-1 hover:translate-y-1 hover:shadow-none">
                     <div className="w-20 h-20 bg-secondary/30 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
