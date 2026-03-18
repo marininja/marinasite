@@ -1,7 +1,6 @@
 "use client";
 import Link  from "next/link";
 import Image from "next/image";
-import heroImage from "@/assets/hero-therapy-objects.jpg";
 
 const HeroSection = () => {
   return (
@@ -60,9 +59,11 @@ const HeroSection = () => {
           <div className="order-1 lg:order-2 animate-fade-in">
             <div className="relative flex justify-center">
               <Image
-                src={heroImage}
-                alt="Body-oriented psychology therapy objects - stool, pilates ball, and glass marbles"
-                className="w-full max-w-sm mx-auto lg:max-w-md object-contain rounded-3xl"
+                src='/marina-portrait.jpg'
+                width={900}
+                height={900}
+                alt="Body-oriented psychology therapy - Marina Moscon"
+                className="w-full max-w-sm mx-auto lg:max-w-sm object-contain rounded-3xl"
               />
             </div>
           </div>

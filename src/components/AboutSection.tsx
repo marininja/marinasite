@@ -12,8 +12,10 @@ const AboutSection = () => {
               <div className="relative">
                 <div className="absolute -inset-4 bg-secondary/30 rounded-3xl -rotate-3" />
                 <Image 
-                  src={marinaPortrait} 
-                  alt="Marina Moscon, Licensed Psychologist" 
+                  src='/about-me-marina-moscon.jpeg' 
+                  width={959}
+                  height={1280}
+                  alt="Marina Moscon, Licensed Psychologist"
                   className="relative w-72 h-80 md:w-80 md:h-96 object-cover rounded-2xl shadow-lg"
                 />
               </div>
