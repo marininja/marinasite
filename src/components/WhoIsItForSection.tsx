@@ -10,7 +10,7 @@ const considerations = [
 
 const WhoIsItForSection = () => {
   return (
-    <section id="who-is-it-for" className="py-24 bg-background">
+    <section id="who-is-it-for" className="pt-24 pb-5 bg-background">
       <div className="container mx-auto px-6 lg:px-12">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12 animate-slide-up">

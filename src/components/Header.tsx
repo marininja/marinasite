@@ -70,7 +70,7 @@ const Header = () => {
             ))}
             <Link href="/contact">
               <Button size="sm" className="ml-4 rounded-full font-display font-semibold">
-                Check Availability
+                Contact via What's App
               </Button>
             </Link>
           </nav>

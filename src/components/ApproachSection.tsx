@@ -2,10 +2,10 @@ import { Eye, Waypoints, HandHeart } from "lucide-react";
 
 const ApproachSection = () => {
   return (
-    <section id="approach" className="py-24 bg-section-alt">
+    <section id="approach" className="pt-24 pb-5 bg-section-alt">
       <div className="container items-center mx-auto px-6 lg:px-12">
         <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-12 animate-slide-up">
+          <div className="text-center mb-6 animate-slide-up">
             <p className="text-primary font-body text-sm font-medium tracking-widest uppercase mb-4">
               My Approach
             </p>
@@ -15,16 +15,16 @@ const ApproachSection = () => {
             </h2>
           </div>
           
-          <div className="space-y-8 animate-fade-in">
-            <p className="text-body font-body text-lg leading-relaxed text-center max-w-3xl mx-auto">
+          <div className="space-y-6 animate-fade-in">
+            <p className="text-body font-body text-lg leading-relaxed text-center justify-center max-w-3xl mx-auto">
               Body-oriented psychology is a therapeutic approach that integrates 
-              verbal psychotherapy with attention to the body. Rather than focusing 
+              verbal psychotherapy with attention to the body.     
+              Rather than focusing 
               solely on thoughts and emotions through conversation, this approach 
               invites awareness of bodily sensations, posture, breath, and physical 
               experience as part of the therapeutic process.
             </p>
-            
-            <div className="grid md:grid-cols-3 gap-6 mt-12">
+            <div className="grid md:grid-cols-3 gap-6 mt-6">
               <div className="bg-card p-8 rounded-2xl border-2 border-border text-center">
                 <div className="w-12 h-12 bg-secondary/30 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Eye className="h-5 w-5 text-primary" />

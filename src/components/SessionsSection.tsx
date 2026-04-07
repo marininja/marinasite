@@ -25,7 +25,7 @@ const sessionDetails = [
 
 const SessionsSection = () => {
   return (
-    <section id="sessions" className="py-24 bg-section-alt">
+    <section id="sessions" className="pt-24 pb-5 bg-section-alt">
       <div className="container mx-auto px-6 lg:px-12">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12 animate-slide-up">
