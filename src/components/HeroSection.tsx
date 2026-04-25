@@ -1,6 +1,20 @@
 "use client";
-import Link  from "next/link";
 import Image from "next/image";
+
+
+const whatsappNumber = "5527992337083";
+const whatsappMessage = encodeURIComponent(
+    "Hello, I would like to know how the sections work."
+  );
+  
+function whatsappClick() {
+  if (typeof window !== "undefined" && window.dataLayer) {
+    window.dataLayer = window.dataLayer || []
+    window.dataLayer.push({
+    event: "whatsapp_click",
+    timestamp: new Date().toISOString(),
+  });}}
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
 const HeroSection = () => {
   return (
@@ -25,11 +39,12 @@ const HeroSection = () => {
               My practice offers specialized body-oriented psychotherapy with adaptable session times, ensuring support is available regardless of your location or time zone.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact">
+              <a href={whatsappLink} target="_blank" rel="noopener noreferrer" onClick={whatsappClick}>
                 <button className="bg-primary text-primary-foreground px-8 py-4 rounded-full font-display font-semibold text-base hover:brightness-110 active:brightness-95 transition-all">
-                  Contact via What's App
+                  Contact via WhatsApp
                 </button>
-              </Link>
+              </a>
+
               <button 
                 onClick={() => {
                   const el = document.getElementById('approach');

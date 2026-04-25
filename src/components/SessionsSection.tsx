@@ -19,7 +19,7 @@ const sessionDetails = [
   {
     icon: Globe,
     title: "Available Worldwide",
-    description: "Sessions are offered in Portuguese and English, available internationally.",
+    description: "Sessions are offered in English and Portuguese, available internationally.",
   },
 ];
 

@@ -10,7 +10,7 @@ interface Window {
 const Contact = () => {
   const whatsappNumber = "5527992337083";
   const whatsappMessage = encodeURIComponent(
-    "Hello Marina, I would like to know more about your availability for sessions."
+    "Hello, I would like to know how the sections work."
   );
   function whatsappClick() {
   if (typeof window !== "undefined" && window.dataLayer) {
@@ -136,7 +136,7 @@ const Contact = () => {
                     Online sessions available internationally.
                   </p>
                   <p className="text-primary font-body font-semibold text-sm">
-                    Portuguese & English
+                    English & Portuguese
                   </p>
                 </div>
               </div>

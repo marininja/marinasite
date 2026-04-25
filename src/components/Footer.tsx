@@ -5,17 +5,17 @@ import logoHorizontal from "@/assets/logo-horizontal.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary text-primary-foreground py-16">
-      <div className="container mx-auto px-6 lg:px-12">
+    <footer className="bg-section-alt text-secondary-foreground py-16">
+      <div className="container mx-auto px-6 lg:px-12 bg-section-alt">
         <div className="grid md:grid-cols-3 gap-12">
           {/* Brand */}
           <div>
             <Image 
               src={logoHorizontal} 
               alt="Marina Moscon - Psychologist" 
-              className="h-12 w-auto object-contain mb-4 brightness-0 invert opacity-90"
+              className="h-12 w-auto object-contain mb-4 brightness-0 invert opacity-90 "
             />
-            <p className="text-primary-foreground/70 text-sm font-body leading-relaxed">
+            <p className="text-secondary-foreground/70 text-sm font-body leading-relaxed">
               Body-Oriented Psychology
               <br />
               Online sessions for adults
@@ -28,25 +28,25 @@ const Footer = () => {
             <nav className="flex flex-col gap-3">
               <Link
                 href="/"
-                className="text-primary-foreground/80 hover:text-secondary transition-colors font-body text-sm"
+                className="text-secondary-foreground/80 hover:text-secondary transition-colors font-body text-sm"
               >
                 Home
               </Link>
               <Link
                 href="/#approach"
-                className="text-primary-foreground/80 hover:text-secondary transition-colors font-body text-sm"
+                className="text-secondary-foreground/80 hover:text-secondary transition-colors font-body text-sm"
               >
                 Approach
               </Link>
               <Link
                 href="/#sessions"
-                className="text-primary-foreground/80 hover:text-secondary transition-colors font-body text-sm"
+                className="text-secondary-foreground/80 hover:text-secondary transition-colors font-body text-sm"
               >
                 Sessions
               </Link>
               <Link
                 href="/contact"
-                className="text-primary-foreground/80 hover:text-secondary transition-colors font-body text-sm"
+                className="text-secondary-foreground/80 hover:text-secondary transition-colors font-body text-sm"
               >
                 Contact
               </Link>
@@ -59,7 +59,7 @@ const Footer = () => {
             <div className="flex flex-col gap-3">
               <a
                 href="mailto:marinamcout@gmail.com"
-                className="flex items-center gap-3 text-primary-foreground/80 hover:text-secondary transition-colors font-body text-sm"
+                className="flex items-center gap-3 text-secondary-foreground/80 hover:text-secondary transition-colors font-body text-sm"
               >
                 <Mail className="h-4 w-4" />
                 marinamcout@gmail.com
@@ -68,7 +68,7 @@ const Footer = () => {
                 href="https://wa.me/5527992337083"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-3 text-primary-foreground/80 hover:text-secondary transition-colors font-body text-sm"
+                className="flex items-center gap-3 text-secondary-foreground/80 hover:text-secondary transition-colors font-body text-sm"
               >
                 <Phone className="h-4 w-4" />
                 +55 27 99233-7083
@@ -77,7 +77,7 @@ const Footer = () => {
                 href="https://instagram.com/marinamoscon"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-3 text-primary-foreground/80 hover:text-secondary transition-colors font-body text-sm"
+                className="flex items-center gap-3 text-secondary-foreground/80 hover:text-secondary transition-colors font-body text-sm"
               >
                 <Instagram className="h-4 w-4" />
                 @marinamoscon
@@ -87,19 +87,19 @@ const Footer = () => {
         </div>
 
         {/* Professional Credentials */}
-        <div className="border-t border-primary-foreground/20 mt-12 pt-8">
+        <div className="border-t border-secondary-foreground/20 mt-12 pt-8">
           <div className="text-center mb-6">
-            <p className="text-primary-foreground font-display font-semibold text-sm mb-2">
+            <p className="text-secondary-foreground font-display font-semibold text-sm mb-2">
               Marina Moscon · CRP 16/8885
             </p>
-            <p className="text-primary-foreground/70 text-xs font-body">
+            <p className="text-secondary-foreground/70 text-xs font-body">
               Licensed Psychologist (Brazil) · Body-Oriented Psychology
             </p>
           </div>
           
           {/* Ethical Disclaimer */}
-          <div className="bg-primary-foreground/10 p-6 rounded-xl mb-8">
-            <p className="text-primary-foreground/80 text-xs font-body leading-relaxed text-center max-w-3xl mx-auto">
+          <div className="bg-secondary-foreground/10 p-6 rounded-xl mb-8">
+            <p className="text-secondary-foreground/80 text-xs font-body leading-relaxed text-center max-w-3xl mx-auto">
               <strong>Disclaimer:</strong> Psychological services are provided in accordance 
               with professional ethical guidelines. Confidentiality, professional boundaries, 
               and responsible practice are central to my work. Online therapy is not a substitute 
@@ -108,7 +108,7 @@ const Footer = () => {
             </p>
           </div>
 
-          <p className="text-primary-foreground/60 text-xs font-body text-center">
+          <p className="text-secondary-foreground/60 text-xs font-body text-center">
             © {new Date().getFullYear()} Marina Moscon. All rights reserved.
           </p>
         </div>

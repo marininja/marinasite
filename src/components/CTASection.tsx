@@ -1,6 +1,19 @@
 import  Link  from "next/link";
 
 const CTASection = () => {
+  const whatsappNumber = "5527992337083";
+  const whatsappMessage = encodeURIComponent(
+    "Hello, I would like to know how the sections work."
+  );
+  function whatsappClick() {
+  if (typeof window !== "undefined" && window.dataLayer) {
+    window.dataLayer = window.dataLayer || []
+    window.dataLayer.push({
+    event: "whatsapp_click",
+    timestamp: new Date().toISOString(),
+  });}}
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+
   return (
     <section className="py-24 bg-primary relative overflow-hidden">
       {/* Subtle decorative elements */}
@@ -21,7 +34,7 @@ const CTASection = () => {
           Whether you'd like to know more about my approach or discuss your needs, 
           I'm available for an initial conversation.
         </p>
-        <Link href="/contact">
+        <Link href={whatsappLink} target="_blank" rel="noopener noreferrer" onClick={whatsappClick}>
           <button className="bg-secondary text-secondary-foreground px-8 py-4 rounded-full font-display font-semibold text-base hover:brightness-95 active:brightness-90 transition-all">
             Start a Conversation
           </button>

@@ -40,7 +40,7 @@ const AboutSection = () => {
               </p>
               
               <p className="text-body font-body text-lg leading-relaxed mb-6">
-                I offer online sessions for adults in Portuguese and English. 
+                I offer online sessions for adults in English and Portuguese. 
                 My practice is available internationally.
               </p>
 
@@ -53,7 +53,7 @@ const AboutSection = () => {
               <div className="inline-flex items-center gap-3 bg-card px-6 py-4 rounded-full border-2 border-border">
                 <div className="w-2 h-2 bg-primary rounded-full" />
                 <span className="font-body text-body text-sm">
-                  Languages: Portuguese & English
+                  Languages: English & Portuguese  
                 </span>
               </div>
             </div>
