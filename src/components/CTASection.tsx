@@ -22,21 +22,20 @@ const CTASection = () => {
       
       <div className="container mx-auto px-6 lg:px-12 text-center relative z-10">
         <p className="text-primary-foreground/80 font-body text-sm font-medium tracking-widest uppercase mb-4">
-          Get in Touch
+          Entre em contato
         </p>
         
         <h2 className="font-display text-4xl md:text-5xl font-bold text-primary-foreground mb-6 animate-slide-up">
-          If You Have Any Questions,
+          Estou disponível para 
           <br />
-          <span className="text-secondary">Feel Free to Reach Out</span>
+          <span className="text-secondary">uma conversa inicial</span>
         </h2>
         <p className="text-primary-foreground/80 font-body text-lg max-w-2xl mx-auto mb-10 animate-fade-in">
-          Whether you'd like to know more about my approach or discuss your needs, 
-          I'm available for an initial conversation.
+           Se você tiver alguma dúvida sobre como a psicologia corporal pode ajudar pessoas grandes ou pequenas, fique à vontade para entrar em contato.
         </p>
         <Link href={whatsappLink} target="_blank" rel="noopener noreferrer" onClick={whatsappClick}>
           <button className="bg-secondary text-secondary-foreground px-8 py-4 rounded-full font-display font-semibold text-base hover:brightness-95 active:brightness-90 transition-all">
-            Start a Conversation
+            Quero tirar dúvidas
           </button>
         </Link>
       </div>

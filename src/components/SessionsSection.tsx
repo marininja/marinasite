@@ -3,23 +3,23 @@ import { Video, Clock, Globe, User } from "lucide-react";
 const sessionDetails = [
   {
     icon: Video,
-    title: "Online Sessions",
-    description: "Sessions are conducted via Google Meet, providing a secure and accessible format.",
+    title: "Sessões online",
+    description: "Realizadas via Google Meet, proporcionando flexibilidade e segurança para adultos que preferem o atendimento remoto.",
   },
   {
     icon: Clock,
-    title: "Duration",
-    description: "Each session lasts approximately 50 minutes.",
+    title: "Duração",
+    description: "Cada sessão tem a duração aproximada de 50 minutos.",
   },
   {
     icon: User,
-    title: "Individual Sessions",
-    description: "One-on-one sessions focused on your personal experience and needs.",
+    title: "Sessões presenciais",
+    description: "Realizadas em consultório estruturado em Vitória/ES, oferecendo um ambiente seguro, acolhedor e dinâmico, ideal para o trabalho corporal e lúdico",
   },
   {
     icon: Globe,
-    title: "Available Worldwide",
-    description: "Sessions are offered in English and Portuguese, available internationally.",
+    title: "Disponível em Vitória, ou online",
+    description: "Atendimento para crianças e adolescentes de forma presencial e adultos de forma online e presencial.",
   },
 ];
 
@@ -30,15 +30,14 @@ const SessionsSection = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12 animate-slide-up">
             <p className="text-primary font-body text-sm font-medium tracking-widest uppercase mb-4">
-              Sessions
+              Sessões
             </p>
             <h2 className="font-display text-4xl md:text-5xl font-bold text-display mb-6">
-              How Sessions
-              <span className="text-secondary"> Work</span>
+              Como as sessões 
+              <span className="text-secondary"> funcionam?</span>
             </h2>
             <p className="text-body font-body text-lg leading-relaxed max-w-2xl mx-auto">
-              Online sessions offer flexibility while maintaining a professional 
-              and confidential therapeutic setting.
+              Os processos terapêuticos são desenhados respeitando a individualidade e o momento de cada cliente, oferecidos em dois formatos:
             </p>
           </div>
 

@@ -7,22 +7,19 @@ const ApproachSection = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-6 animate-slide-up">
             <p className="text-primary font-body text-sm font-medium tracking-widest uppercase mb-4">
-              My Approach
+              Psicologia Corporal Clínica
             </p>
             <h2 className="font-display text-4xl md:text-5xl font-bold text-display mb-6">
-              Body-Oriented
-              <span className="text-secondary"> Psychology</span>
+              Como 
+              <span className="text-secondary"> funciona?</span>
             </h2>
           </div>
           
           <div className="space-y-6 animate-fade-in">
-            <p className="text-body font-body text-lg leading-relaxed text-center justify-center max-w-3xl mx-auto">
-              Body-oriented psychology is a therapeutic approach that integrates 
-              verbal psychotherapy with attention to the body.     
-              Rather than focusing 
-              solely on thoughts and emotions through conversation, this approach 
-              invites awareness of bodily sensations, posture, breath, and physical 
-              experience as part of the therapeutic process.
+            <p className="text-body font-body text-lg leading-relaxed text-center justify-center max-w-4xl mx-auto">
+              A nossa mente e o nosso corpo não funcionam separados. Tensões físicas, ansiedade e bloqueios emocionais andam de mãos dadas. 
+              No consultório, utilizamos uma abordagem que acolhe a expressão genuína de cada paciente.
+              Seja através do brincar e do movimento com as crianças, seja na escuta atenta e percepção corporal com os adultos, o objetivo é construir caminhos saudáveis para lidar com os desafios da vida.
             </p>
             <div className="grid md:grid-cols-3 gap-6 mt-6">
               <div className="bg-card p-8 rounded-2xl border-2 border-border text-center">
@@ -30,11 +27,10 @@ const ApproachSection = () => {
                   <Eye className="h-5 w-5 text-primary" />
                 </div>
                 <h3 className="font-display text-lg font-bold text-display mb-3">
-                  Awareness
+                  Consciência
                 </h3>
                 <p className="font-body text-body text-sm leading-relaxed">
-                  Developing awareness of how experiences are held and expressed 
-                  in the body.
+                  Desenvolver a consciência de como as experiências são armazenadas e expressas no corpo.
                 </p>
               </div>
               
@@ -43,11 +39,10 @@ const ApproachSection = () => {
                   <Waypoints className="h-5 w-5 text-primary" />
                 </div>
                 <h3 className="font-display text-lg font-bold text-display mb-3">
-                  Integration
+                  Integração
                 </h3>
                 <p className="font-body text-body text-sm leading-relaxed">
-                  Connecting verbal exploration with bodily experience at your 
-                  own pace.
+                  Conectar a linguagem através da fala com a experiência corporal.
                 </p>
               </div>
               
@@ -56,21 +51,17 @@ const ApproachSection = () => {
                   <HandHeart className="h-5 w-5 text-primary" />
                 </div>
                 <h3 className="font-display text-lg font-bold text-display mb-3">
-                  Respect
+                  Respeito
                 </h3>
                 <p className="font-body text-body text-sm leading-relaxed">
-                  Always respecting your boundaries and individual rhythm 
-                  throughout the process.
+                  Respeitando sempre os seus limites e o seu ritmo individual ao longo de todo o processo
                 </p>
               </div>
             </div>
 
             <div className="bg-primary/5 p-8 rounded-2xl border-2 border-primary/20 mt-12">
               <p className="text-body font-body text-base leading-relaxed text-center italic">
-                "The invitation is to reconnect with the body—this body that 
-                accompanies you throughout your life. In a world that often 
-                disconnects us from ourselves, reconnecting with the body can 
-                be a way to feel present and alive."
+                "O convite é para se reconectar com o corpo, este corpo que acompanha você ao longo de toda a sua vida. Em um mundo que frequentemente nos desconecta de nós mesmos, reconectar-se com o corpo pode ser um caminho para se sentir presente e vivo."
               </p>
             </div>
           </div>

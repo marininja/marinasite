@@ -16,46 +16,46 @@ const Footer = () => {
               className="h-12 w-auto object-contain mb-4 brightness-0 invert opacity-90 "
             />
             <p className="text-secondary-foreground/70 text-sm font-body leading-relaxed">
-              Body-Oriented Psychology
+              Psicologia Corporal
               <br />
-              Online sessions for adults
+              Sessões online e presenciais
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-display text-lg font-bold mb-4">Navigation</h4>
+            <h4 className="font-display text-lg font-bold mb-4">Navegação</h4>
             <nav className="flex flex-col gap-3">
               <Link
                 href="/"
                 className="text-secondary-foreground/80 hover:text-secondary transition-colors font-body text-sm"
               >
-                Home
+                Início
               </Link>
               <Link
                 href="/#approach"
                 className="text-secondary-foreground/80 hover:text-secondary transition-colors font-body text-sm"
               >
-                Approach
+                Abordagem
               </Link>
               <Link
                 href="/#sessions"
                 className="text-secondary-foreground/80 hover:text-secondary transition-colors font-body text-sm"
               >
-                Sessions
+                Sessões
               </Link>
               <Link
                 href="/contact"
                 className="text-secondary-foreground/80 hover:text-secondary transition-colors font-body text-sm"
               >
-                Contact
+                Contato
               </Link>
             </nav>
           </div>
 
           {/* Contact */}
           <div>
-            <h4 className="font-display text-lg font-bold mb-4">Contact</h4>
+            <h4 className="font-display text-lg font-bold mb-4">Contato</h4>
             <div className="flex flex-col gap-3">
               <a
                 href="mailto:marinamcout@gmail.com"
@@ -93,23 +93,19 @@ const Footer = () => {
               Marina Moscon · CRP 16/8885
             </p>
             <p className="text-secondary-foreground/70 text-xs font-body">
-              Licensed Psychologist (Brazil) · Body-Oriented Psychology
+              Psicóloga Credenciada · Analista Corporal
             </p>
           </div>
           
           {/* Ethical Disclaimer */}
           <div className="bg-secondary-foreground/10 p-6 rounded-xl mb-8">
             <p className="text-secondary-foreground/80 text-xs font-body leading-relaxed text-center max-w-3xl mx-auto">
-              <strong>Disclaimer:</strong> Psychological services are provided in accordance 
-              with professional ethical guidelines. Confidentiality, professional boundaries, 
-              and responsible practice are central to my work. Online therapy is not a substitute 
-              for emergency mental health services. If you are experiencing a crisis, please 
-              contact local emergency services or a crisis helpline.
+              <strong>Aviso:</strong> Os serviços psicológicos são prestados em conformidade com as diretrizes éticas profissionais. A confidencialidade, os limites profissionais e a prática responsável são fundamentais para o meu trabalho. Este site não oferece atendimento imediato a pessoas em crise suicida  Em caso de crise ligue para o CVV - 188
             </p>
           </div>
 
           <p className="text-secondary-foreground/60 text-xs font-body text-center">
-            © {new Date().getFullYear()} Marina Moscon. All rights reserved.
+            © {new Date().getFullYear()} Marina Moscon. Todos os diretos reservados.
           </p>
         </div>
       </div>

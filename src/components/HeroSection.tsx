@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const whatsappNumber = "5527992337083";
 const whatsappMessage = encodeURIComponent(
-    "Hello, I would like to know how the sections work."
+    "Olá, Gostaría de saber como as sessões funcionam."
   );
   
 function whatsappClick() {
@@ -28,20 +28,20 @@ const HeroSection = () => {
           {/* Text Content */}
           <div className="order-2 lg:order-1 animate-slide-up">
             <p className="text-primary font-body text-sm font-medium tracking-widest uppercase mb-4 mt-2">
-              Body-Oriented Psychology
+              Psicoterapia Corporal 
             </p>
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-display leading-[1] mb-6">
-              Online Psychological
+              Cuidado e acolhimento 
               <br />
-              <span className="text-secondary">Sessions for Adults</span>
+              <span className="text-secondary">Para você e sua família</span>
             </h1>
             <p className="text-body font-body text-lg leading-relaxed mb-8 max-w-lg">
-              My practice offers specialized body-oriented psychotherapy with adaptable session times, ensuring support is available regardless of your location or time zone.
+              Psicoterapia especializada que integra mente e corpo. Atendimentos de crianças, adolescentes e adultos em Vitória e sessões online para adultos de qualquer região.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={whatsappLink} target="_blank" rel="noopener noreferrer" onClick={whatsappClick}>
                 <button className="bg-primary text-primary-foreground px-8 py-4 rounded-full font-display font-semibold text-base hover:brightness-110 active:brightness-95 transition-all">
-                  Contact via WhatsApp
+                  Agendar Consulta via WhatsApp
                 </button>
               </a>
 
@@ -55,14 +55,14 @@ const HeroSection = () => {
                 }}
                 className="border-2 border-primary text-primary px-8 py-4 rounded-full font-display font-semibold text-base hover:bg-primary/5 transition-colors"
               >
-                Learn More
+                Saiba mais
               </button>
             </div>
             
             {/* Credentials Badge */}
             <div className="mt-2 inline-flex items-center gap-3 px-5 py-3 ">
               <span className="font-body text-body text-sm">
-                CRP 16/8885 · Licensed Psychologist (Brazil)
+                CRP 16/8885 · Psicóloga Credenciada
               </span>
             </div>
           </div>

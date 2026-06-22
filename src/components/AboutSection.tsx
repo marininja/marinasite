@@ -24,38 +24,33 @@ const AboutSection = () => {
             {/* Content */}
             <div className="order-1 md:order-2 text-center md:text-left">
               <p className="text-primary font-body text-sm font-medium tracking-widest uppercase mb-4">
-                About Me
+                Sobre mim
               </p>
               
               <h2 className="font-display text-4xl md:text-5xl font-bold text-display mb-6">
-                Hello, I'm
-                <span className="text-secondary"> Marina</span>
+                Olá,sou
+                <span className="text-secondary"> Marina Moscon</span>
               </h2>
               
               <p className="text-body font-body text-lg leading-relaxed mb-6">
-                I am a licensed psychologist registered with the Regional Council 
-                of Psychology (CRP 16/8885) in Brazil. My work is grounded in 
-                body-oriented psychology, an approach that integrates verbal 
-                psychotherapy with attention to bodily experience.
+              Sou psicóloga clínica registrada no Conselho Regional de Psicologia (CRP 16/8885). Meu trabalho é fundamentado na Psicologia Corporal, uma abordagem que integra a psicoterapia verbal à atenção minuciosa com a experiência viva do corpo.
               </p>
               
               <p className="text-body font-body text-lg leading-relaxed mb-6">
-                I offer online sessions for adults in English and Portuguese. 
-                My practice is available internationally.
+                Ofereço um espaço terapêutico baseado no respeito absoluto, no sigilo e na ética profissional.
               </p>
 
               <p className="text-body font-body text-lg leading-relaxed mb-8">
-                The therapeutic space I offer is one of respect, confidentiality, 
-                and professional ethics. Each person's rhythm and boundaries are 
-                central to the work we do together.
+                O ritmo, os limites e as necessidades de cada indivíduo, seja uma criança, um jovem ou um adulto, são a base de todo o caminho que construímos juntos.
               </p>
 
+              {/* 
               <div className="inline-flex items-center gap-3 bg-card px-6 py-4 rounded-full border-2 border-border">
                 <div className="w-2 h-2 bg-primary rounded-full" />
                 <span className="font-body text-body text-sm">
                   Languages: English & Portuguese  
                 </span>
-              </div>
+              </div>*/}
             </div>
           </div>
         </div>

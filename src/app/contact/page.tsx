@@ -26,28 +26,26 @@ const Contact = () => {
       <Header />
       <main className="pt-20">
         {/* Hero Section */}
-        <section className="py-24 bg-brand-gradient-soft">
+        <section className="py-12 bg-brand-gradient-soft">
           <div className="container mx-auto px-6 lg:px-12">
             <div className="max-w-3xl mx-auto text-center animate-slide-up">
               <p className="text-primary font-body text-sm font-medium tracking-widest uppercase mb-4">
-                Contact
+                Contato
               </p>
               <h1 className="font-display text-4xl md:text-5xl font-bold text-display mb-6">
-                Get in
-                <span className="text-secondary"> Touch</span>
+                Entre em 
+                <span className="text-secondary"> Contato</span>
               </h1>
               <p className="text-body font-body text-lg leading-relaxed">
-                If you have any questions about my approach or would like to 
-                discuss your needs, feel free to reach out through any of the 
-                channels below.
+                Caso tenha alguma dúvida sobre minha abordagem ou deseje discutir suas necessidades, fique à vontade para entrar em contato através de qualquer um dos canais abaixo.
               </p>
             </div>
           </div>
         </section>
 
         {/* Contact Options */}
-        <section className="py-24 bg-background">
-          <div className="container mx-auto px-6 lg:px-12">
+        <section className="pb-12 bg-background">
+          <div className="container mx-auto px-6 lg:px-6">
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
               {/* WhatsApp - Primary CTA */}
               <div className="lg:col-span-3 animate-fade-in">
@@ -66,7 +64,7 @@ const Contact = () => {
                       WhatsApp
                     </h2>
                     <p className="text-primary-foreground/80 font-body mb-6">
-                      The most direct way to get in touch. I aim to respond within 48 hours.
+                      A forma mais direta de entrar em contato. Eu busco responder dentro de 48 horas.
                     </p>
                     <div className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground px-6 py-3 rounded-full font-display font-semibold group-hover:scale-105 transition-transform">
                       <span>+55 27 99233-7083</span>
@@ -89,7 +87,7 @@ const Contact = () => {
                       Email
                     </h3>
                     <p className="text-body font-body text-sm mb-4 flex-grow">
-                      For written communication or formal inquiries.
+                      Para comunicação escrita ou solicitações formais
                     </p>
                     <p className="text-primary font-body font-semibold text-sm">
                       marinamcout@gmail.com
@@ -114,7 +112,7 @@ const Contact = () => {
                       Instagram
                     </h3>
                     <p className="text-body font-body text-sm mb-4 flex-grow">
-                      Follow for content and reflections.
+                      Siga para conteúdos e reflexões.
                     </p>
                     <p className="text-primary font-body font-semibold text-sm">
                       @marinamoscon
@@ -130,10 +128,10 @@ const Contact = () => {
                     <Globe className="h-7 w-7 text-primary" />
                   </div>
                   <h3 className="font-display text-xl font-bold text-display mb-2">
-                    Sessions
+                    Sessões
                   </h3>
                   <p className="text-body font-body text-sm mb-4 flex-grow">
-                    Online sessions available internationally.
+                    Sessões online e presenciais.
                   </p>
                   <p className="text-primary font-body font-semibold text-sm">
                     English & Portuguese

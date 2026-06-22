@@ -28,12 +28,12 @@ const Header = () => {
   const location = usePathname();
 
   const navItems = [
-    { label: "Home", path: "/" },
-    { label: "Approach", path: "/#approach" },
-    { label: "Who This Is For", path: "/#who-is-it-for" },
-    { label: "Sessions", path: "/#sessions" },
-    { label: "About Me", path: "/#about" },
-    { label: "Contact", path: "/contact" },
+    { label: "Início", path: "/" },
+    { label: "Abordagem", path: "/#approach" },
+    { label: "Isso é pra você?", path: "/#who-is-it-for" },
+    { label: "Sessões", path: "/#sessions" },
+    { label: "Sobre mim", path: "/#about" },
+    { label: "Contato", path: "/contact" },
   ];
 
   const scrollToSection = (path: string) => {
@@ -85,7 +85,7 @@ const Header = () => {
             ))}
             <a href={whatsappLink} target="_blank" rel="noopener noreferrer" onClick={whatsappClick}>
               <Button size="sm" className="ml-4 rounded-full font-display font-semibold">
-                Contact via WhatsApp
+                Agendar Consulta via WhatsApp
               </Button>
             </a>
           </nav>
