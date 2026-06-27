@@ -5,7 +5,7 @@ const considerations = [
   "Adolescentes que enfrentam insegurança, pressões escolares, crises de identidade, ansiedade ou sentimentos de desconexão com o próprio corpo.",
   "Pessoas que enfrentam estresse, ansiedade, depressão ou sobrecarga emocional.",
   "Quem sente uma desconexão entre a mente e as emoções, ou carrega tensões físicas crônicas.",
-  "Pessoas que buscam um espaço seguro de reflexão e autoconhecimento, sem abordagens prescritivas.",
+  "Pessoas que buscam um espaço seguro de reflexão e autoconhecimento.",
 ];
 
 const WhoIsItForSection = () => {
