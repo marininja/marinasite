@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const whatsappNumber = "5527992337083";
 const whatsappMessage = encodeURIComponent(
-    "Olá, Gostaría de saber como as sessões funcionam."
+    "Olá, vi seu anúncio no Google e gostaria de saber mais informaçôes sobre os atendimentos de psicoterapia."
   );
   
 function whatsappClick() {

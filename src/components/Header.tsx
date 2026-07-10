@@ -9,7 +9,7 @@ import { usePathname } from "next/navigation";
 
 const whatsappNumber = "5527992337083";
 const whatsappMessage = encodeURIComponent(
-  "Hello Marina, I would like to know more about your availability for sessions."
+  "Olá, vi seu anúncio no Google e gostaria de saber mais informaçôes sobre os atendimentos de psicoterapia."
 );
 
 function whatsappClick() {

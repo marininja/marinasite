@@ -10,7 +10,7 @@ interface Window {
 const Contact = () => {
   const whatsappNumber = "5527992337083";
   const whatsappMessage = encodeURIComponent(
-    "Hello, I would like to know how the sections work."
+    "Olá, vi seu anúncio no Google e gostaria de saber mais informaçôes sobre os atendimentos de psicoterapia."
   );
   function whatsappClick() {
   if (typeof window !== "undefined" && window.dataLayer) {
